@@ -44,3 +44,18 @@
     width: 300px; 
   } 
 }
+@media all and (max-width:991px){
+  .mobile-main-menu .menu-content li a {
+    font-size: 21px;
+  }
+}
+
+@media all and (max-width:600px){
+  .mobile-main-menu .menu-content li a {
+    font-size: 16px;
+  }
+}
+
+  
+  
+  
