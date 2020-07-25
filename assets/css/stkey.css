@@ -1,0 +1,31 @@
+/*Stkey Menu Start*/
+.header-menu.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  -webkit-animation: sticky 1s;
+  -moz-animation: sticky 1s;
+  -o-animation: sticky 1s;
+  animation: sticky 1s;
+  -webkit-box-shadow: 2px 4px 8px rgba(51, 51, 51, 0.25);
+  -moz-box-shadow: 2px 4px 8px rgba(51, 51, 51, 0.25);
+  box-shadow: 2px 4px 8px rgba(51, 51, 51, 0.25); 
+}
+
+@-webkit-keyframes sticky {
+  0% {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%); }
+  100% {
+    -webkit-transform: translateY(0%);
+    transform: translateY(0%); } }
+@keyframes sticky {
+  0% {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%); }
+  100% {
+    -webkit-transform: translateY(0%);
+    transform: translateY(0%); } }
+/*Stkey Menu End*/

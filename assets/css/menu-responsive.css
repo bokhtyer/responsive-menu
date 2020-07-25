@@ -1,0 +1,46 @@
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .header-horizontal-menu .menu-content li a {
+    font-size: 13px;
+    padding: 0 12px;
+    letter-spacing: 1px; 
+  } 
+}
+@media only screen and (min-width: 1200px) and (max-width: 1599px) {
+  .header-horizontal-menu .menu-content li .sub-menu li a {
+    line-height: 35px; 
+  } 
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .header-horizontal-menu .menu-content li .sub-menu li a {
+    line-height: 35px; 
+  } 
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .header-horizontal-menu .menu-content li:nth-last-child(1) .sub-menu li .sub-menu, .header-horizontal-menu .menu-content li:nth-last-child(2) .sub-menu li .sub-menu, .header-horizontal-menu .menu-content li:nth-last-child(3) .sub-menu li .sub-menu {
+    left: auto;
+    right: 100%; 
+  } 
+}
+@media only screen and (min-width: 1200px) and (max-width: 1599px) {
+  .header-horizontal-menu .menu-content li .mega-sub-menu {
+    width: 980px;
+    left: 0; 
+  } 
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .header-horizontal-menu .menu-content li .mega-sub-menu {
+    width: 900px;
+    left: 0;
+    padding: 0px 15px 15px; 
+  } 
+}
+@media (max-width: 767px) {
+  .mobile-off-canvas-menu {
+    width: 280px; 
+  } 
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .mobile-off-canvas-menu {
+    width: 300px; 
+  } 
+}
