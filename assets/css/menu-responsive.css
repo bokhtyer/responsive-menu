@@ -48,11 +48,17 @@
   .mobile-main-menu .menu-content li a {
     font-size: 21px;
   }
+  .mobile-main-menu .menu-content li .mega-sub-menu .menu-title {
+    font-size: 20px;
+  }
 }
 
 @media all and (max-width:600px){
   .mobile-main-menu .menu-content li a {
     font-size: 16px;
+  }
+  .mobile-main-menu .menu-content li .mega-sub-menu .menu-title {
+    font-size: 15px;
   }
 }
 
